@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Alina krasnaya</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: "Kanit", sans-serif;
+            background-color: #1d2227; /* Color de fondo del contenedor */
+        }
+
+    </style>
+
+
+</head>
+<body class="antialiased">
+    <div class="dark:bg-gray-900">
+        <header>
+            <div class="wrapper">
+                <div class="logo">
+                    <img src="imagenes/logo.png" alt="">
+                </div>
+                <ul class="nav-area">
+					<li>
+                    	<a href="" class="boton-blanco" 
+                    	style="
+                    		font-family: 'Kanit' sans-serif;	
+                    	">Inicio</a>
+                    </li>
+                    <li>
+                    	<a href="" class="boton-amarillo" 
+                    	style="
+                    	font-family: 'Kanit' sans-serif;
+
+                    	">Sobre mi</a>
+                    </li>
+                    <li>
+                    	<a href="" class="boton-verde" 
+                    	style="
+                    	font-family: 'Kanit' sans-serif;
+
+                    	">Watsapp</a>
+                    </li>
+
+                    <li>
+                    	<a href="" class="boton-azul" 
+                    	style="
+                    	font-family: 'Kanit' sans-serif;
+
+                    	">Facebook</a>
+                    </li>
+                    <li>
+                    	<a href="" class="boton-rojo" 
+                    	style="
+                    	font-family: 'Kanit' sans-serif;
+
+                    	">Itch.io</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="welcome-text" style="">
+                <h1 id="animated-text">Software innovador para un mundo en evolución</h1>
+            	<script type="text/javascript" src="lema-animacion.js"></script>
+
+            </div>
+        </header>
+
+        <style type="text/css">
+
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                font-family: 'Lato', sans-serif;
+            }
+            .wrapper{
+                width: 1170px;
+                margin: auto;
+            }
+            header{
+                background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(imagenes/fondo_index.html);
+                height: 100vh;
+                -webkit-background-size: cover;
+                background-size: cover;
+                background-position: center center;
+                position: relative;
+            }
+            .nav-area{
+                float: right;
+                list-style: none;
+                margin-top: 30px;
+            }
+            .nav-area li{
+                display: inline-block;
+            }
+            .nav-area li a {
+                color: #fff;
+                text-decoration: none;
+                padding: 5px 20px;
+                font-family: "Kanit", sans-serif;
+                font-size: 16px;
+                text-transform: uppercase;
+            }
+            .nav-area li a:hover{
+/*                background: #fff;*/
+/*                color: #333;*/
+            }
+            .logo{
+                float: left;
+                width: 50%;
+            }
+            .logo img{
+                width: 60%;
+                padding: 15px 0;
+            }
+            .welcome-text{
+                position: absolute;
+                width: 950px;
+                height: 300px;
+                margin: 20% 15%;
+                text-align: center;
+            }
+            .welcome-text h1{
+                text-align: center;
+                color: #fff;
+                text-transform: uppercase;
+                font-size: 60px;
+            }
+            .welcome-text a{
+                border: 1px solid #fff;
+                padding: 10px 25px;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 14px;
+                margin-top: 20px;
+                display: inline-block;
+                color: #fff;
+            }
+            .welcome-text a:hover{
+                background: #fff;
+                color: #333;
+            }
+
+            .boton-verde:hover {
+            	background-color: #34a753;
+                color: #fff;
+
+            }
+            .boton-azul:hover {
+            	background-color: #395995;
+                color: #fff;
+
+            }
+            .boton-amarillo:hover {
+            	background-color: #f8bb04;
+                color: #333;
+
+            }
+            .boton-rojo:hover {
+            	background-color: #dd565b;
+                color: #fff;
+
+            }
+            .boton-blanco:hover {
+            	background-color: #fff;
+                color: #333;
+            }
+
+        /*resposive*/
+
+        @media (max-width:600px){
+            .wrapper {
+                width: 100%;
+            }
+            .logo {
+                float: none;
+                width: 50%;
+                text-align: center;
+                margin: auto;
+            }
+            img {
+                width: ;
+            }
+            .nav-area {
+                float: none;
+                margin-top: 0;
+            }
+            .nav-area li a {
+                padding: 5px;
+                font-size: 11px;
+            }
+            .nav-area {
+                text-align: center;
+            }
+            .welcome-text {
+                width: 100%;
+                height: auto;
+                margin: 30% 0;
+            }
+            .welcome-text h1 {
+                font-size: 30px;
+            }
+        }
+
+
+        </style>
+
+
+    </div>
+
+    <!---------------------------------------------INFORMACION-------------------------------------------------------->
+    <hr>
+    <style type="text/css">
+    	.subtitulo h1 {
+
+
+		}
+
+		/* Ajustes de fuente */
+		@font-face {
+		    font-family: 'Kanit', sans-serif;
+		    src: url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+		}
+
+    </style>
+
+    <h1 style="
+		    padding: 20px; /* Espaciado general */
+		    font-size: 4rem; /* Tamaño de letra grande */
+		    padding-left: 10%; /* Padding izquierdo del 10% */
+		    margin-left: 0; /* Alineación a la izquierda */
+		    color: #f0f0f0; /* Color de texto */
+		    text-align: left; /* Alineación a la izquierda */
+		    margin-bottom: 20px; /* Espacio debajo del título */">¿Puedo ayudarte?</h1>
+
+    <link rel="stylesheet" type="text/css" href="estilo-informacion.css">
+        <div class="container">
+        <div class="profile-header">
+            <img src="https://scontent.fchm1-1.fna.fbcdn.net/v/t39.30808-6/437755437_122096800622288237_8554776386499110416_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeG-RHZ9mQwm9PX1GUPW730czLHBymqgHvjMscHKaqAe-JXEVPD9TcymaIBT1qIovmyU96lMPMgQRMNF2g23RKY5&_nc_ohc=vAAMjQlSDJEQ7kNvgEmj9en&_nc_ht=scontent.fchm1-1.fna&oh=00_AYACYBIQUKjqRQp9oW1rjqmWjWgbdgkQa2rfFPPZtjtQhA&oe=66878ABA" alt="Alina Katalina">
+            <div class="profile-info">
+                <h1>Alinarov</h1>
+                <p>@walter8wagner</p>
+                <p>Entusiasta del software y explorador de nuevas tecnologías.</p>
+            </div>
+        </div>
+        <div class="profile-info-frame">
+            <h2>Hi there, I’m 👋 <strong>Alina Arkanet</strong> ✨ <em>special</em> ✨</h2>
+            <p>- 🔭 Soy ingeniero de software, y este blog es mi proyecto personal de emprendimiento.</p>
+            <p>- 🌱 Aquí comparto y publico mis programas y soluciones innovadoras.</p>
+            <p>- 👯 Estoy abierto a colaborar en proyectos tecnológicos interesantes.</p>
+            <p>- 🤝 Busco conectar con otros profesionales y aprender juntos.</p>
+            <p>- 💬 Si tienes alguna consulta sobre programación, no dudes en contactarme.</p>
+            <p>- 📫 Puedes encontrarme en <a href="https://dlang.com">Dlang.com</a>.</p>
+            <p>- 🚀 Siempre estoy explorando nuevas tecnologías y tendencias en software.</p>
+            <p>- 🎓 Me apasiona la educación continua y el crecimiento profesional.</p>
+
+            <h3>Languages:</h3>
+            <p class="languages">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="65" height="65"/>
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="65" height="65"/>
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" alt="flutter" width="65" height="65"/>
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="65" height="65"/>
+                <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/python/python-original.svg" alt="python" width="65" height="65"/>
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="65" height="65"/>
+                <img src="https://brandslogos.com/wp-content/uploads/thumbs/microsoft-sql-server-logo-vector.svg" alt="sqlserver" width="65" height="65"/>
+                <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="65" height="65"/>
+                <img src="https://images.ctfassets.net/gt6dp23g0g38/6GTi78BuMxrv2VPtvpgcby/42b2ef53b0a4116fc53835f720b63312/d.jpg" alt="latex" width="65" height="65"/>
+                <img src="https://www.saashub.com/images/app/service_logos/10/ca7d1ad40fec/large.png?1529502024" alt="D" width="65" height="65"/>
+            </p>
+        </div>
+    </div>
+
+
+    <!--------------------------------------------MULTICARD---------------------------------------------------->
+	<hr>
+    <link rel="stylesheet" type="text/css" href="estilo-multicard.css">
+    
+    <h1 style="
+		    padding: 20px; /* Espaciado general */
+		    font-size: 4rem; /* Tamaño de letra grande */
+		    padding-left: 10%; /* Padding izquierdo del 10% */
+		    margin-left: 0; /* Alineación a la izquierda */
+		    color: #f0f0f0; /* Color de texto */
+		    text-align: left; /* Alineación a la izquierda */
+		    margin-bottom: 20px; /* Espacio debajo del título */">Proyectos destacados</h1>
+
+    <div class="slider-container">
+        <button class="arrow arrow-left" onclick="moveSlider(-1)">&#10094;</button>
+        <button class="arrow arrow-right" onclick="moveSlider(1)">&#10095;</button>
+        <div class="slider">
+            <!-- Ejemplo de tarjeta 1 -->
+            <div class="card">
+                <img src="https://via.placeholder.com/275x165?text=Card+1" alt="Card 1">
+                <div class="card-content">
+                    <h3>Tarjeta 1</h3>
+                    <p>Descripción de la tarjeta 1.</p>
+                </div>
+            </div>
+            <!-- Ejemplo de tarjeta 2 -->
+            <div class="card">
+                <img src="https://via.placeholder.com/275x165?text=Card+2" alt="Card 2">
+                <div class="card-content">
+                    <h3>Tarjeta 2</h3>
+                    <p>Descripción de la tarjeta 2.</p>
+                </div>
+            </div>
+            <!-- Ejemplo de tarjeta 3 -->
+            <div class="card">
+                <img src="https://via.placeholder.com/275x165?text=Card+3" alt="Card 3">
+                <div class="card-content">
+                    <h3>Tarjeta 3</h3>
+                    <p>Descripción de la tarjeta 3.</p>
+                </div>
+            </div>
+            <!-- Ejemplo de tarjeta 4 -->
+            <div class="card">
+                <img src="https://via.placeholder.com/275x165?text=Card+4" alt="Card 4">
+                <div class="card-content">
+                    <h3>Tarjeta 4</h3>
+                    <p>Descripción de la tarjeta 4.</p>
+                </div>
+            </div>
+            <!-- Ejemplo de tarjeta 5 -->
+            <div class="card">
+                <img src="https://via.placeholder.com/275x165?text=Card+5" alt="Card 5">
+                <div class="card-content">
+                    <h3>Tarjeta 5</h3>
+                    <p>Descripción de la tarjeta 5.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let index = 0;
+
+        function moveSlider(direction) {
+            const slider = document.querySelector('.slider');
+            const cards = document.querySelectorAll('.card');
+            const cardWidth = cards[0].offsetWidth + 22; // Width of a card including the gap
+            const totalCards = cards.length;
+
+            index += direction;
+
+            if (index < 0) {
+                index = 0;
+            } else if (index > totalCards - 1) {
+                index = totalCards - 1;
+            }
+
+            const offset = -index * cardWidth;
+
+            slider.style.transform = `translateX(${offset}px)`;
+        }
+    </script>
+
+
+</body>
+</html>
