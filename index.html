@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Alina krasnaya</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        body {
+            font-family: "Kanit", sans-serif;
+            background-color: #1d2227; /* Color de fondo del contenedor */
+        }
+
+    </style>
+
+
+</head>
+<body class="antialiased">
+    <div class="dark:bg-gray-900">
+        <header>
+            <div class="wrapper">
+                <div class="logo">
+                    <img src="imagenes/logo.png" alt="">
+                </div>
+                <ul class="nav-area">
+					<li>
+                    	<a href="index.html" class="boton-blanco" 
+                    	style="
+                    		font-family: 'Kanit' sans-serif;	
+                    	">Inicio</a>
+                    </li>
+                    <li>
+                    	<a href="" class="boton-amarillo" 
+                    	style="
+                    	font-family: 'Kanit' sans-serif;
+
+                    	">Sobre mi</a>
+                    </li>
+                    <li>
+                    	<a href="" class="boton-verde" 
+                    	style="
+                    	font-family: 'Kanit' sans-serif;
+
+                    	">Watsapp</a>
+                    </li>
+
+                    <li>
+                    	<a href="https://www.facebook.com/profile.php?id=61558647115931" class="boton-azul" 
+                    	style="
+                    	font-family: 'Kanit' sans-serif;
+
+                    	">Facebook</a>
+                    </li>
+                    <li>
+                    	<a href="https://alinakrasnaya.itch.io/" class="boton-rojo" 
+                    	style="
+                    	font-family: 'Kanit' sans-serif;
+
+                    	">Itch.io</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="welcome-text" style="">
+                <h1 id="animated-text">Software innovador para un mundo en evolución</h1>
+            	<script type="text/javascript" src="lema-animacion.js"></script>
+
+            </div>
+        </header>
+
+        <style type="text/css">
+
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                font-family: 'Lato', sans-serif;
+            }
+            .wrapper{
+                width: 1170px;
+                margin: auto;
+            }
+            header{
+                background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(imagenes/fondo_index.html);
+                height: 100vh;
+                -webkit-background-size: cover;
+                background-size: cover;
+                background-position: center center;
+                position: relative;
+            }
+            .nav-area{
+                float: right;
+                list-style: none;
+                margin-top: 30px;
+            }
+            .nav-area li{
+                display: inline-block;
+            }
+            .nav-area li a {
+                color: #fff;
+                text-decoration: none;
+                padding: 5px 20px;
+                font-family: "Kanit", sans-serif;
+                font-size: 16px;
+                text-transform: uppercase;
+            }
+            .nav-area li a:hover{
+/*                background: #fff;*/
+/*                color: #333;*/
+            }
+            .logo{
+                float: left;
+                width: 50%;
+            }
+            .logo img{
+                width: 60%;
+                padding: 15px 0;
+            }
+            .welcome-text{
+                position: absolute;
+                width: 950px;
+                height: 300px;
+                margin: 20% 15%;
+                text-align: center;
+            }
+            .welcome-text h1{
+                text-align: center;
+                color: #fff;
+                text-transform: uppercase;
+                font-size: 60px;
+            }
+            .welcome-text a{
+                border: 1px solid #fff;
+                padding: 10px 25px;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 14px;
+                margin-top: 20px;
+                display: inline-block;
+                color: #fff;
+            }
+            .welcome-text a:hover{
+                background: #fff;
+                color: #333;
+            }
+
+            .boton-verde:hover {
+            	background-color: #34a753;
+                color: #fff;
+
+            }
+            .boton-azul:hover {
+            	background-color: #395995;
+                color: #fff;
+
+            }
+            .boton-amarillo:hover {
+            	background-color: #f8bb04;
+                color: #333;
+
+            }
+            .boton-rojo:hover {
+            	background-color: #dd565b;
+                color: #fff;
+
+            }
+            .boton-blanco:hover {
+            	background-color: #fff;
+                color: #333;
+            }
+
+        /*resposive*/
+
+        @media (max-width:600px){
+            .wrapper {
+                width: 100%;
+            }
+            .logo {
+                float: none;
+                width: 50%;
+                text-align: center;
+                margin: auto;
+            }
+            img {
+                width: ;
+            }
+            .nav-area {
+                float: none;
+                margin-top: 0;
+            }
+            .nav-area li a {
+                padding: 5px;
+                font-size: 11px;
+            }
+            .nav-area {
+                text-align: center;
+            }
+            .welcome-text {
+                width: 100%;
+                height: auto;
+                margin: 30% 0;
+            }
+            .welcome-text h1 {
+                font-size: 30px;
+            }
+        }
+
+
+        </style>
+
+
+    </div>
+
+    <!---------------------------------------------INFORMACION-------------------------------------------------------->
+    <hr>
+    <style type="text/css">
+    	.subtitulo h1 {
+
+
+		}
+
+		/* Ajustes de fuente */
+		@font-face {
+		    font-family: 'Kanit', sans-serif;
+		    src: url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+		}
+
+    </style>
+
+    <h1 style="
+		    padding: 20px; /* Espaciado general */
+		    font-size: 4rem; /* Tamaño de letra grande */
+		    padding-left: 10%; /* Padding izquierdo del 10% */
+		    margin-left: 0; /* Alineación a la izquierda */
+		    color: #f0f0f0; /* Color de texto */
+		    text-align: left; /* Alineación a la izquierda */
+		    margin-bottom: 20px; /* Espacio debajo del título */">¿Puedo ayudarte?</h1>
+
+    <link rel="stylesheet" type="text/css" href="estilo-informacion.css">
+        <div class="container">
+        <div class="profile-header">
+            <img src="https://scontent.fchm1-1.fna.fbcdn.net/v/t39.30808-6/437755437_122096800622288237_8554776386499110416_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeG-RHZ9mQwm9PX1GUPW730czLHBymqgHvjMscHKaqAe-JXEVPD9TcymaIBT1qIovmyU96lMPMgQRMNF2g23RKY5&_nc_ohc=vAAMjQlSDJEQ7kNvgEmj9en&_nc_ht=scontent.fchm1-1.fna&oh=00_AYACYBIQUKjqRQp9oW1rjqmWjWgbdgkQa2rfFPPZtjtQhA&oe=66878ABA" alt="Alina Katalina">
+            <div class="profile-info">
+                <h1>Alinarov</h1>
+                <p>@walter8wagner</p>
+                <p>Entusiasta del software y explorador de nuevas tecnologías.</p>
+            </div>
+        </div>
+        <div class="profile-info-frame">
+            <h2>Hi there, I’m 👋 <strong>Alina Arkanet</strong> ✨ <em>special</em> ✨</h2>
+            <p>- 🔭 Soy ingeniero de software, y este blog es mi proyecto personal de emprendimiento.</p>
+            <p>- 🌱 Aquí comparto y publico mis programas y soluciones innovadoras.</p>
+            <p>- 👯 Estoy abierto a colaborar en proyectos tecnológicos interesantes.</p>
+            <p>- 🤝 Busco conectar con otros profesionales y aprender juntos.</p>
+            <p>- 💬 Si tienes alguna consulta sobre programación, no dudes en contactarme.</p>
+            <p>- 📫 Puedes encontrarme en <a href="https://dlang.com">Dlang.com</a>.</p>
+            <p>- 🚀 Siempre estoy explorando nuevas tecnologías y tendencias en software.</p>
+            <p>- 🎓 Me apasiona la educación continua y el crecimiento profesional.</p>
+
+            <h3>Languages:</h3>
+            <p class="languages">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="65" height="65"/>
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="65" height="65"/>
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" alt="flutter" width="65" height="65"/>
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="65" height="65"/>
+                <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/python/python-original.svg" alt="python" width="65" height="65"/>
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="65" height="65"/>
+                <img src="https://brandslogos.com/wp-content/uploads/thumbs/microsoft-sql-server-logo-vector.svg" alt="sqlserver" width="65" height="65"/>
+                <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="65" height="65"/>
+                <img src="https://images.ctfassets.net/gt6dp23g0g38/6GTi78BuMxrv2VPtvpgcby/42b2ef53b0a4116fc53835f720b63312/d.jpg" alt="latex" width="65" height="65"/>
+                <img src="https://www.saashub.com/images/app/service_logos/10/ca7d1ad40fec/large.png?1529502024" alt="D" width="65" height="65"/>
+            </p>
+        </div>
+    </div>
+
+
+    <!--------------------------------------------MULTICARD---------------------------------------------------->
+	<hr>
+    <link rel="stylesheet" type="text/css" href="estilo-multicard.css">
+    
+    <h1 style="
+		    padding: 20px; /* Espaciado general */
+		    font-size: 4rem; /* Tamaño de letra grande */
+		    padding-left: 10%; /* Padding izquierdo del 10% */
+		    margin-left: 0; /* Alineación a la izquierda */
+		    color: #f0f0f0; /* Color de texto */
+		    text-align: left; /* Alineación a la izquierda */
+		    margin-bottom: 20px; /* Espacio debajo del título */">Proyectos destacados</h1>
+
+    <div class="slider-container">
+        <button class="arrow arrow-left" onclick="moveSlider(-1)">&#10094;</button>
+        <button class="arrow arrow-right" onclick="moveSlider(1)">&#10095;</button>
+        <div class="slider">
+            <!-- Ejemplo de tarjeta 1 -->
+            <div class="card">
+                <a href="https://alinakrasnaya.itch.io/gestor-de-cargas-de-empleados">
+                    <div class="card-image" style="background-image: url('https://scontent.fchm1-1.fna.fbcdn.net/v/t39.30808-6/449055038_122123293670288237_7137499209388101398_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeFqSanxB83NmQ02v_vc6vTubQota3wJ0X5tCi1rfAnRflGG12nJsXIQUHgm--8hWR4A285N-Na0BXtVy690_ITj&_nc_ohc=rANBDdaJGzAQ7kNvgEp55Rq&_nc_ht=scontent.fchm1-1.fna&oh=00_AYAv9-_QLrYF5oFcdBLkVc1VTJ3cBLjJih7xQ5b6glKuLg&oe=6688A550');"></div>
+                    <div class="card-content">
+                        <h3>BD Cargas de empleados (beta - oferta)</h3><br>
+                        <p>Nuestro software ayuda a empresas a gestionar y registrar las cargas diarias de empleados. 🐟🌾</p><br>
+                    </div>
+                </a>
+            </div>
+            <!-- Ejemplo de tarjeta 2 -->
+            <div class="card">
+                <a href="https://alinakrasnaya.itch.io/gestor-de-registros-de-base-de-datos">
+                    <div class="card-image" style="background-image: url('https://img.itch.zone/aW1hZ2UvMjY1NzgzNC8xNTgzNTk2MS5wbmc=/original/vtKKN8.png');"></div>
+                    <div class="card-content">
+                        <h3>Gestor de registros de base de datos (Codigo)</h3><br>
+
+                        <p>Este es un programa básico pero eficiente que facilita la gestión de registros en una base de datos utilizando el Gestor SQL SERVER y programado en Python.</p><br>
+                    </div>
+                </a>
+            </div>
+            <!-- Ejemplo de tarjeta 3 -->
+            <div class="card">
+                <a href="https://alinakrasnaya.itch.io/operador-de-ecua-lineales-v10">
+                    <div class="card-image" style="background-image: url('https://fisymat.com/wp-content/uploads/2022/12/Sistemas-de-ecuaciones-2x2-1.webp');"></div>
+                    <div class="card-content">
+                        <h3>Operador de ecua. lineales v1.0</h3><br>
+                        <p>Presento mi programa para resolver ecuaciones lineales 2x2 en C++. Está en la versión 1.0 y resuelve sistemas de ecuaciones eficientemente.</p><br>
+                    </div>
+                </a>
+            </div>
+            <!-- Ejemplo de tarjeta 4 -->
+            <div class="card">
+                <a href="#">
+                    <div class="card-image" style="background-image: url('https://static.vecteezy.com/system/resources/previews/014/053/984/non_2x/cloud-system-computer-connectivity-lan-filled-outline-icon-vector.jpg');"></div>
+                    <div class="card-content">
+                        <h3>LocalLANCloud: Tu Almacenamiento Personal en Red</h3><br>
+                        <p>MiNube es un sistema de almacenamiento en red LAN desarrollado en Dlang para empresas medianas y grandes. Permite compartir archivos de forma segura y eficiente dentro de la red local. Actualmente en desarrollo, el programa está destinado a mejorar y agregar nuevas funciones con el tiempo.</p><br>
+                    </div>
+                </a>
+            </div>
+            <!-- Ejemplo de tarjeta 5 -->
+            <div class="card">
+                <a href="#">
+                    <div class="card-image" style="background-image: url('https://via.placeholder.com/275x165?text=Card+5');"></div>
+                    <div class="card-content">
+                        <h3>Tarjeta 5</h3>
+                        <p>Descripción de la tarjeta 5.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script>
+        let index = 0;
+
+        function moveSlider(direction) {
+            const slider = document.querySelector('.slider');
+            const cards = document.querySelectorAll('.card');
+            const cardWidth = cards[0].offsetWidth + 22; // Width of a card including the gap
+            const totalCards = cards.length;
+
+            index += direction;
+
+            if (index < 0) {
+                index = 0;
+            } else if (index >= totalCards - 3) { // Cambiado a -3 para permitir mostrar 3 tarjetas
+                index = totalCards - 3;
+            }
+
+            const offset = -index * cardWidth;
+            slider.style.transform = `translateX(${offset}px)`;
+        }
+    </script>
+</body>
+<div class="fondo-lema">
+    <div class="lema">
+        <style type="text/css">
+            .fondo-lema {
+                background: url('imagenes/slogan.png') no-repeat center center; /* Imagen de fondo centrada */
+                background-size: cover; /* La imagen cubre todo el contenedor */
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra */
+                margin: 20px auto; /* Centra el contenedor */
+                text-align: center; /* Centra el texto */
+            }
+
+            .lema {
+                color: #f0f0f0; /* Texto claro */
+                background: rgba(28, 28, 28, 0.6); /* Fondo oscuro semi-transparente */
+                padding: 30px; /* Espacio alrededor del contenido */
+                border-radius: 10px; /* Esquinas redondeadas */
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra */
+                max-width: 100%; /* Tamaño máximo del contenedor */
+                margin: 0 auto; /* Centra el contenedor */
+                text-align: center; /* Centra el texto */
+            }
+
+            .lema h2 {
+                font-family: Abel, sans-serif;
+                font-size: 2.5em; /* Tamaño de fuente del título */
+                margin-bottom: 20px; /* Espacio debajo del título */
+                color: #8bc34a; /* Verde claro para el eslogan */
+                line-height: 1.4; /* Altura de línea para mejorar la legibilidad */
+            }
+
+            .lema h2 strong {
+                color: #f8bb04; /* Color dorado para palabras en negrita */
+            }
+
+            .lema p {
+                font-family: Lato, sans-serif;
+                font-size: 1.1em; /* Tamaño de fuente del texto */
+                margin: 10px 0; /* Espacio arriba y abajo del texto */
+                color: #b0bec5; /* Gris claro para el texto */
+                line-height: 1.6; /* Altura de línea para mejorar la legibilidad */
+            }
+        </style>
+        <h2>Cada proyecto es una oportunidad para <strong>aprender</strong> y <strong>crecer</strong>.</h2>
+        <p>Hola desde Perú. Aquí comparto mis proyectos, avances y descubrimientos tecnológicos.</p>
+    </div>
+</div>
+<footer>
+    <style type="text/css">
+        footer {
+            background: linear-gradient(135deg, #1d2227 0%, #181c21 100%); /* Degradado oscuro */
+            color: #ffffff; /* Texto claro */
+            border-top: 4px solid #303841; /* Línea superior con el color más claro */
+            box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.5); /* Sombra interior */
+            text-align: center; /* Centramos el texto */
+            display: flex; /* Usamos Flexbox para alinear el contenido */
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-content {
+            display: flex;
+            align-items: center; /* Alinea verticalmente el contenido */
+            justify-content: space-between; /* Espacio entre el logo y el texto */
+            width: 100%;
+            max-width: 1000px; /* Ancho máximo del contenedor */
+            padding: 0 20px; /* Espacio horizontal dentro del contenedor */
+
+        }
+
+        footer h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.8em; /* Tamaño de fuente del título más pequeño */
+            color: #ffffff; /* Texto blanco para el título */
+            margin: 0; /* Elimina el margen */
+        }
+
+        footer p {
+            font-family: 'Arial', sans-serif;
+            font-size: 0.9em; /* Tamaño de fuente del texto más pequeño */
+            color: #e0e0e0; /* Gris claro para el texto */
+            margin: 5px 0; /* Espacio arriba y abajo del texto */
+            line-height: 1.5; /* Altura de línea para mejorar la legibilidad */
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 20px; /* Espacio horizontal entre los enlaces */
+            margin: 15px 0; /* Espacio arriba y abajo de los enlaces */
+        }
+
+        .footer-links a {
+            color: #4caf50; /* Verde brillante para los enlaces */
+            text-decoration: none; /* Elimina el subrayado */
+            font-size: 0.9em; /* Tamaño de fuente de los enlaces más pequeño */
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline; /* Subrayado al pasar el ratón */
+        }
+
+        .footer-bottom {
+/*            margin-top: 10px;*/
+        }
+
+        .footer-bottom p {
+            font-size: 0.8em; /* Tamaño de fuente para el copyright más pequeño */
+            color: #b0bec5; /* Gris claro para el texto de copyright */
+            margin: 5px 0; /* Espacio arriba y abajo del texto */
+        }
+
+        .footer-bottom .social-icons {
+            margin-top: 10px; /* Espacio encima de los iconos sociales */
+        }
+
+        .footer-bottom .social-icons a {
+            color: #f1f1f1; /* Color blanco para los iconos */
+            margin: 0 8px; /* Espacio horizontal entre los iconos */
+            font-size: 1.3em; /* Tamaño de los iconos */
+        }
+
+        .footer-bottom .social-icons a:hover {
+            color: #303841; /* Cambia a un gris más claro al pasar el ratón */
+        }
+
+        .footer-bottom .social-icons .fab {
+            transition: color 0.3s ease; /* Transición suave al pasar el ratón */
+        }
+
+        .footer-logo img {
+            height: 150px; /* Altura del logo */
+            margin-right: 20px; /* Espacio a la derecha del logo */
+        }
+    </style>
+    <div class="footer-content">
+        <div class="footer-logo">
+            <a href="/">
+                <img src="imagenes/logo.png" alt="Logo de Tu Empresa de Software"> <!-- Reemplaza 'ruta/al/logo.png' con la URL de tu logo -->
+            </a>
+        </div>
+        <div class="footer-text">
+            <h2>Descubre el <strong>Futuro</strong> del Software</h2>
+            <div class="footer-links">
+                <a href="#solutions">Soluciones</a>
+                <a href="#careers">Carreras</a>
+                <a href="#resources">Recursos</a>
+                <a href="#contact">Contacto</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="social-icons">
+            <a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+        </div>
+        <p>&copy; 2024 Tu Empresa de Software. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+</html>
