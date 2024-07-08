@@ -1,0 +1,42 @@
+/* Estilo general para el cuerpo del documento */
+.idiomas {
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(fondo_panel.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+/* Contenedor de idiomas */
+.languages-container {
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(fondo_panel.png);
+    text-align: center;
+    padding: 20px;
+    background-color: #181c21; /* Color de fondo del contenedor */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    max-width: 1200px;
+}
+
+/* Título dentro del contenedor */
+.languages-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #f0f0f0; /* Color del texto del título */
+}
+
+/* Contenedor de las banderas */
+.languages-container .flags {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Estilo para las imágenes de las banderas */
+.languages-container img {
+    width: 150px;
+    height: 100px; /* Tamaño consistente */
+    border: 2px solid #303841; /* Color del borde */
+    border-radius: 5px;
+}

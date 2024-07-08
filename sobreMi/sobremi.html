@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sobre mi</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" type="text/css" href="estilolenguajes.css">
+    <link rel="stylesheet" type="text/css" href="estiloIdiomas.css">
+
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="menu-toggle">&#9776;</div>
+            <nav>
+                <ul class="nav-area">
+                    <li><a href="../index.html" class="boton-blanco">Inicio</a></li>
+                    <li><a href="https://api.whatsapp.com/send/?phone=51901726289&text&type=phone_number&app_absent=0" class="boton-verde">Whatsapp</a></li>
+                    <li class="logo"><a href="../index.html"><img src="../imagenes/logo.png" alt="Logo"></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=61558647115931" class="boton-azul">Facebook</a></li>
+                    <li><a href="https://alinakrasnaya.itch.io/" class="boton-rojo">Itch.io</a></li>
+                </ul>
+            </nav>
+        </div>
+        <script>
+            document.querySelector('.menu-toggle').addEventListener('click', function() {
+                document.querySelector('.nav-area').classList.toggle('show');
+            });
+        </script>    
+    </header>
+    <main>
+
+        <div class="lenguajes">
+
+            <div class="mac-window">
+                <div class="title-bar">
+                    <div class="window-controls">
+                        <div class="close"></div>
+                        <div class="minimize"></div>
+                        <div class="maximize"></div>
+                    </div>
+                    <div class="title">LENGUAJES QUE DESTACO</div>
+                </div>
+                <div class="content">
+                    <div class="grid-container">
+                        <div class="grid-item item1">
+                            <img src="dlang.png" alt="Dlang">
+                            
+                        </div>
+                        <div class="grid-item item2">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" alt="php">
+                            
+                        </div>
+                        <div class="grid-item item3">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/800px-Laravel.svg.png" alt="Laravel">
+                            
+                        </div>
+                        <div class="grid-item item4">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/640px-Python.svg.png" alt="python">
+                          
+                        </div>
+                        <div class="grid-item item5">
+                            <img src="https://www.pngkey.com/png/full/254-2549864_sql-server-logo-microsoft-sql-server.png" alt="sql">
+                            
+                        </div>
+                        <div class="grid-item item6">
+                            <img src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png" alt="cpp">
+                            
+                        </div>
+                        <div class="grid-item item7">
+                            <img src="https://seeklogo.com/images/L/linux-logo-704D6BB91C-seeklogo.com.png" alt="linux">
+                            
+                        </div>
+                        <!-- <div class="grid-item item8">Item 8</div> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="idiomas">
+            <div class="languages-container">
+                <h1>Los idiomas que he estado aprendiendo por mi cuenta</h1>
+                <div class="flags">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg" alt="Bandera del Reino Unido">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg" alt="Bandera de Alemania">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg" alt="Bandera de Ucrania">
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="github">
+            <style>
+                .github {
+                    display: flex;
+                    justify-content: space-between;
+                }
+                .card {
+                    background-color: #fff;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    overflow: hidden;
+                    width: 45%;
+                    display: flex;
+                    margin: 50px;
+                }
+                .card img {
+                    width: 350px;
+                    height: 350px;
+                    object-fit: cover;
+                }
+                .card-content {
+                    padding: 15px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+                .card-content h3 {
+                    margin: 0;
+                    font-size: 1.5em;
+                    color: #333;
+                }
+                .card-content p {
+                    margin: 10px 0 0;
+                    color: #666;
+                }
+            </style>
+
+            <div class="card">
+                <img src="https://avatars.githubusercontent.com/u/110730912?v=4" alt="GitHub Profile Picture">
+                <div class="card-content">
+                    <h3>Github anterior</h3>
+                    <p>En mis inicios de programación, creé pequeños scripts que fui almacenando en este repositorio. Aquí puedes ver algunos de esos primeros proyectos y cómo evolucioné como programador.</p>
+                    <a href="https://github.com/enigma8psiquico">Visitar pagina</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://avatars.githubusercontent.com/u/150054498?v=4" alt="GitHub Profile Picture">
+                <div class="card-content">
+                    <h3>Nuevo Github</h3>
+                    <p>A medida que fui adquiriendo más conocimientos y experiencia en programación, decidí crear un nuevo repositorio donde almaceno proyectos de mayor envergadura y de índole más profesional.</p>
+                    <a href="https://github.com/Alinarov">Visitar nuevo repositorio</a>
+                </div>
+            </div>
+
+
+
+
+            
+        </div>
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,137 @@
+.lenguajes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh; /* Altura de la ventana de visualización */
+}
+
+/* Estilo para la ventana de Mac */
+.mac-window {
+    background: #181c21; /* Fondo oscuro de la ventana */
+    border-radius: 12px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Sombra para un efecto de profundidad */
+    width: 1200px; /* Ajustado para la cuadrícula */
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.mac-window .title-bar {
+    background: #303841; /* Fondo de la barra superior */
+    padding: 10px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8); /* Sombra de la barra superior */
+}
+.mac-window .title-bar .window-controls {
+    display: flex;
+    gap: 8px;
+}
+.mac-window .title-bar .window-controls div {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #303841; /* Color base de los controles */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+}
+.mac-window .title-bar .window-controls .close {
+    background: #e14d4d; /* Cerrar */
+}
+.mac-window .title-bar .window-controls .minimize {
+    background: #f7be3e; /* Minimizar */
+}
+.mac-window .title-bar .window-controls .maximize {
+    background: #44c06f; /* Maximizar */
+}
+.mac-window .content {
+    padding: 20px;
+    color: #e0e0e0; /* Texto claro para el contenido */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar verticalmente */
+    height: 100%; /* Asegurar que el contenido ocupe toda la altura */
+}
+.mac-window .content h1 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+
+/* Estilo para el contenedor de la cuadrícula */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 columnas de igual tamaño */
+    grid-template-rows: repeat(3, 1fr); /* 3 filas de igual tamaño */
+    gap: 10px; /* Espacio entre las celdas */
+    padding: 10px; /* Espacio alrededor del contenedor */
+    background-color: #1d2227; /* Color de fondo del contenedor */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra */
+    width: 100%; /* Ancho del contenedor ajustado para caber dentro de la ventana */
+    height: 455px; /* Alto del contenedor */
+}
+
+/* Estilo para los elementos dentro de la cuadrícula */
+.grid-item {
+    background-color: #303841; /* Color de fondo de los elementos */
+    color: #ffffff; /* Color del texto */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    border-radius: 10px; /* Esquinas redondeadas de los elementos */
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2); /* Sombra interior */
+    transition: background-color 0.3s, transform 0.3s; /* Transición suave */
+}
+
+/* Ajuste de las imágenes dentro de los elementos de la cuadrícula */
+.grid-item img {
+    width: 70%; /* Ocupa el 100% del ancho del elemento */
+    height: 70%; /* Ocupa el 100% del alto del elemento */
+    object-fit: contain; /* Ajusta la imagen sin recortes */
+}
+
+/* Efecto al pasar el ratón sobre los elementos */
+.grid-item:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
+
+/* Estilo específico para los elementos en las posiciones */
+.item4 { grid-column: 1 / 4; grid-row: 1 / 4; } /* Ocupa la cuarta y quinta columna de la primera a la tercera fila */
+.item1 { grid-column: 4 / 6; grid-row: 1 / 3; } /* Ocupa dos columnas y dos filas */
+.item2 { grid-column: 6; grid-row: 1; } /* Ocupa la tercera columna de la primera fila */
+.item3 { grid-column: 6; grid-row: 2; } /* Ocupa la tercera columna de la segunda fila */
+.item5 { grid-column: 4; grid-row: 3; } /* Ocupa la primera columna de la tercera fila */
+.item6 { grid-column: 5; grid-row: 3; } /* Ocupa la segunda columna de la tercera fila */
+.item7 { grid-column: 6; grid-row: 3; } /* Ocupa la tercera columna de la tercera fila */
+
+
+.item4:hover{ 
+    background-color: #34a753;
+} /* Ocupa la cuarta y quinta columna de la primera a la tercera fila */
+.item1:hover{ 
+    background-color: #c3c3c3;
+} /* Ocupa dos columnas y dos filas */
+.item2:hover{ 
+    background-color: #8063d6;
+} /* Ocupa la tercera columna de la primera fila */
+.item3:hover{ 
+    background-color: #6c6c6c;
+} /* Ocupa la tercera columna de la segunda fila */
+.item5:hover{ 
+    background-color: #FFF;
+} /* Ocupa la primera columna de la tercera fila */
+.item6:hover{ 
+    background-color: #4788ac;
+} /* Ocupa la segunda columna de la tercera fila */
+.item7:hover{ 
+    background-color: #f2d169;
+} /* Ocupa la tercera columna de la tercera fila */
+
+
+
