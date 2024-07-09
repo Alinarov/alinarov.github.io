@@ -3,7 +3,9 @@
     align-items: center;
     justify-content: center;
     margin: 0;
-    height: 100vh; /* Altura de la ventana de visualización */
+    height: 100vh; /* Altura de la ventana de visualización */    
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(fondo_chino_bosque.jpg);
+
 }
 
 /* Estilo para la ventana de Mac */
