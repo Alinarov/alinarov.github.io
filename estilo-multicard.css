@@ -2,8 +2,8 @@
 .slider-container {
     background: linear-gradient(rgba(29, 34, 39,0.86),rgba(29, 34, 39,0.86)), url('imagenes/fondo-cartillas.gif') no-repeat center center;
     background-size: cover;
-    width: 96.5%;
-    max-width: 1320px; /* 1200px + 10% */
+    width: 100%;
+    max-width: 97%; /* 1200px + 10% */
     overflow: hidden;
     position: relative;
     border-radius: 10px;
