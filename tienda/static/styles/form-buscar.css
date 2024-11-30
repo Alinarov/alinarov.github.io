@@ -1,0 +1,119 @@
+
+form {
+    display: flex;	
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+form label {
+    font-size: 22px;
+    color: #387478;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Estilo para el input de búsqueda */
+form input[type="text"] {
+    width: 80%; /* Hace que el campo de texto ocupe el 80% del formulario */
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+/* Efecto de enfoque para el campo de búsqueda */
+form input[type="text"]:focus {
+    border-color: #387478;
+    background-color: #eef5f3;
+}
+
+/* Efecto hover en el botón de búsqueda */
+form .button-buscar:hover {
+    background-color: #2e5d50;
+}
+
+/* Para dispositivos pequeños, ajustar los anchos de los inputs y el botón */
+@media (max-width: 480px) {
+    form input[type="text"], form .button-buscar {
+        width: 100%; /* En pantallas pequeñas, hacer los elementos más grandes */
+    }
+}
+
+form .button-buscar {
+	background-image: url('https://cdn-icons-png.flaticon.com/128/751/751381.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding-left: 20px; 
+	height: 40px;
+	width: 120px;
+	border: 2px solid #458588;
+	border-radius: 5px;
+	background-color: #076678;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	background-size: 25px 25px;
+	text-align: center;
+	line-height: 40px;
+	transition: all 0.3s ease;
+}
+
+.button-buscar:hover {
+	background-color: #0056b3; /* Color de fondo al pasar el ratón */
+	border-color: #0056b3; /* Cambia el borde al pasar el ratón */
+}
+
+.button-buscar:active {
+	background-color: #004085; /* Fondo más oscuro cuando se hace clic */
+	border-color: #004085; /* Cambia el borde al hacer clic */
+}
+
+.button-buscar:focus {
+	outline: none; /* Quitar borde de enfoque */
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+
+.registrar {
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: #076678; 
+    color: white; 
+    font-size: 16px; 
+    font-weight: bold; 
+    padding: 6px 10px; 
+    border: 2px solid #458588; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    width: auto; 
+    
+}
+
+
+.registrar:hover {
+    background-color: #0056b3; 
+    border-color: #0056b3; 
+}
+
+
+.registrar:active {
+    background-color: #004085; 
+    border-color: #004085; 
+}
+
+
+.registrar:focus {
+    outline: none; 
+}

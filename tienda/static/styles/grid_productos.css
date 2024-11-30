@@ -1,0 +1,512 @@
+.seccion_electronica, .seccion_libros, .seccion_reventa,  .seccion_programas{
+    padding: 20px;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+p, h2, div, span{
+    color: white;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.section_description {
+    margin: 0;
+    font-size: 16px;
+    color: var(--itchio_body_color_light);
+}
+.section_header h2 {
+    font-size: 20px;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.section_header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.button.outline {
+    color: #8ec07c;
+    background: transparent;
+    border: 2px solid #8ec07c;
+    border: 2px solid var(--itchio_button_color, #8ec07c);
+    color: var(--itchio_link_color, #8ec07c);
+    text-shadow: none;
+}
+.section_header .button {
+    height: 28px;
+    line-height: 28px;
+}
+
+.button {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    box-sizing: border-box;
+    display: inline-block;
+    background: #8ec07c;
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 14px;
+    text-shadow: 0 1px 0 #076678;
+    background: var(--itchio_button_color, #8ec07c);
+    color: var(--itchio_button_fg_color, white);
+    text-shadow: 0 1px 0 var(--itchio_button_shadow_color, #076678);
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 1px rgba(255, 255, 255, 0.21);
+    text-align: center;
+    line-height: 33px;
+    font-weight: bold;
+    height: 35px;
+}
+
+.seccion_programas.dark_theme {
+    --itchio_white_back: #111;
+    --itchio_gray_back: #1b1b1b;
+    --itchio_body_color: #eee;
+    --itchio_body_color_gray: #949494;
+    --itchio_body_color_med: #cacaca;
+    --itchio_body_color_light: #ababab;
+    --itchio_body_color_lighter: #838383;
+    --itchio_border_color: rgba(255, 255, 255, 0.1);
+    --itchio_edge_border_color: rgba(255, 255, 255, 0.1);
+    --itchio_input_border_color: rgba(255, 255, 255, 0.1);
+    --itchio_input_focus_color: white;
+    --itchio_light_highlight: rgba(255, 36, 73, 0.1);
+    --itchio_warning_bg: #3f3421;
+    --itchio_target_bg: rgba(215, 252, 175, 0.2);
+    color-scheme: dark;
+}
+
+
+.seccion_programas{
+    font-family: Lato, sans-serif;
+    font-family: var(--itchio_default_font, Lato), sans-serif;
+    background: var(--itchio_gray_back);
+    color: var(--itchio_body_color);
+}
+
+.game_section {
+    max-width: 1680px;
+    margin-top: var(--itchio_game_section_gap, 40px);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 var(--itchio_gutter_width, 40px);
+}
+.user agent stylesheet
+.seccion_programas {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.game_section .featured_game_grid_widget {
+    margin-top: 5px;
+}
+
+/*--------------------------------------------------------------------------------------------------
+
+    AQUI CONTROLO EL TAMAÑO DE LAS CARTILLAS
+
+*/
+
+.featured_game_grid_widget {
+    display: grid;
+    align-items: start;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    gap: 20px 10px;
+}
+.user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+
+.featured_game_grid_widget .game_cell {
+    margin-bottom: 0;
+}
+.index_game_cell_widget {
+    margin-bottom: 25px;
+}
+
+.user agent stylesheet
+[dir="auto" i] {
+    unicode-bidi: isolate;
+}
+.user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.main_column .featured_game_grid_widget {
+    --itchio_grid_gap: 20px;
+    --itchio_grid_cell_width: 200px;
+    --itchio_grid_cell_columns: 6;
+    grid-template-columns: repeat(6, 200px);
+}
+
+element.style {
+    background-color: rgba(197, 0, 68, 0.5);
+}
+.index_game_cell_widget .bordered {
+    position: relative;
+    background: rgba(0, 0, 0, 0.1);
+    padding-bottom: 79.3650793651%;
+    box-sizing: border-box;
+
+
+}
+
+.dark_theme .index_game_cell_widget .game_thumb {
+    box-shadow: none;
+}
+.featured_game_grid_widget .game_cell .game_thumb {
+    transition: opacity 0.20s ease-in-out;
+}
+
+a {
+    color: #8ec07c;
+/*    color: var(--itchio_link_color, #da2c49);*/
+}
+
+
+
+.index_game_cell_widget .bordered img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity 0.2s ease;
+}
+
+a img {
+    border: 0;
+}
+
+.user agent stylesheet
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+.index_game_cell_widget .gif_label {
+    font-weight: bold;
+    font-size: 12px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #222;
+    padding: 1px 4px;
+    border-radius: 2px;
+    color: #ccc;
+    opacity: 0.8;
+}
+
+.featured_game_grid_widget .game_cell .gif_overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+
+.index_game_cell_widget .cell_tools {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.index_game_cell_widget .fading_data {
+    opacity: 0;
+    transition: opacity 0.20s ease-in-out;
+}
+.user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+
+.index_game_cell_widget .cell_tools .add_to_collection_btn {
+    font-size: 18px;
+}
+.index_game_cell_widget .cell_tools button, .index_game_cell_widget .cell_tools .add_to_collection_btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 5px;
+    border: 2px solid white;
+    background: rgba(30, 30, 30, 0.9);
+    font-weight: bold;
+    font-size: 12px;
+    box-shadow: none;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+
+[class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.screenreader_only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.dark_theme .index_game_cell_widget .sale_flag {
+    border-color: #111;
+}
+
+.index_game_cell_widget .sale_flag .rate {
+    font-size: 20px;
+    opacity: 0.9;
+    font-weight: 900;
+}
+
+.index_game_cell_widget .sale_flag .mini_label {
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 1.1;
+    opacity: 0.5;
+    font-weight: bold;
+}
+
+[class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.index_game_cell_widget .label {
+    font-size: 14px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    word-wrap: break-word;
+}
+
+.index_game_cell_widget .meta_tag.price_tag {
+    background-color: #737373;
+    background-image: linear-gradient(to top right, white 0%, #f9f5d7 100%);
+    background-image: -webkit-linear-gradient(to top right, white 0%, #f9f5d7 100%);
+    background-image: -moz-linear-gradient(to top right, white 0%, #f9f5d7 100%);
+    background-image: -o-linear-gradient(to top right, white 0%, #f9f5d7 100%);
+    background-image: -ms-linear-gradient(to top right, white 0%, #f9f5d7 100%);
+    color: #1d2021;
+}
+
+.index_game_cell_widget .meta_tag {
+    border-radius: 3px;
+    padding: 2px 5px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    float: right;
+    font-weight: bold;
+}
+
+.index_game_cell_widget .label>.title {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+
+
+.index_game_cell_widget .label {
+    font-size: 14px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    word-wrap: break-word;
+}
+
+.index_game_cell_widget .game_rating {
+    color: var(--itchio_body_color_light);
+    margin-bottom: 5px;
+}
+
+.screenreader_only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.star_value .star_fill {
+    color: #FF2449;
+    color: var(--itchio_button_color, #FF2449);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.index_game_cell_widget .game_rating {
+    color: var(--itchio_body_color_light);
+    margin-bottom: 5px;
+}
+
+.index_game_cell_widget .sub:last-child {
+    margin-bottom: 0;
+}
+.index_game_cell_widget .sub {
+    color: inherit;
+    opacity: 0.7;
+    font-size: 12px;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.star_value .star_fill {
+    color: #FF2449;
+    color: var(--itchio_button_color, #FF2449);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.icon-star:before {
+    content: "\e00d";
+}
+.star_value .star_fill {
+    color: #FF2449;
+    color: var(--itchio_button_color, #FF2449);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.index_game_cell_widget .label>.title {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.index_game_cell_widget .label {
+    font-size: 14px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    word-wrap: break-word;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

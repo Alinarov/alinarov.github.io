@@ -1,0 +1,186 @@
+.seccion_servicios {
+ 
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    color: #01476A;
+    font-family: "Rubik";
+    font-style: normal;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 400;
+    --e-global-color-primary: #6EC1E4;
+    --e-global-color-secondary: #54595F;
+    --e-global-color-text: #7A7A7A;
+    --e-global-color-accent: #61CE70;
+    --e-global-color-2ac4e80c: #4054B2;
+    --e-global-color-59d8a758: #23A455;
+    --e-global-color-21100fdc: #000;
+    --e-global-color-6b8cbb81: #FFF;
+    hyphens: manual;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.seccion_servicios {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+/*    background-color: #fff;*/
+}
+
+ *,  :after,  :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media (min-width: 992px) {
+    .col-lg-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.service-wrap {
+    margin: 0px 0px 30px 0px;
+}
+
+
+.ts-practice-area-classic .ts-mix-services .service-wrap {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.service-wrap {
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.07);
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+}
+
+.service-img {
+    height: 170px;
+}
+
+.service-wrap .service-img {
+    width: 100%;
+    height: 100%;
+    min-height: 170px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+}
+
+
+ a {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+a:active, a:focus, a:hover, a:visited {
+    text-decoration: none;
+    outline: 0;
+}
+
+.img_link {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.service-content {
+    background-color: #FFFFFF;
+}
+
+.service-wrap .service-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 30px;
+}
+
+.service-content .ts-title {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.service-wrap .service-content .ts-title {
+    margin-bottom: 0px;
+}
+
+
+.service-wrap .service-content .ts-title a {
+    color: #01476A;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+}
+
+a:active, a:focus, a:hover, a:visited {
+    text-decoration: none;
+    outline: 0;
+}
+
+.service-wrap .service-content .read-more {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17px;
+    color: #01476A;
+    text-transform: uppercase;
+    opacity: 1;
+    visibility: visible;
+}
+
+a:active, a:focus, a:hover, a:visited {
+    text-decoration: none;
+    outline: 0;
+}
+
+.service-content a {
+    font-family: "Merriweather";
+
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 400;
+    background-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    box-shadow: none;
+    text-decoration: none;
+    color: #01476A;
+    -webkit-transition: all 0.4s ease;
+}
+

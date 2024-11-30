@@ -1,0 +1,42 @@
+body_mensaje {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100%;
+    background-color: #f4f4f4;
+}
+*/
+.mensaje {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;  
+    width: 100%;
+}
+
+.mensaje h1 {
+    color: #ff4d4d;
+    font-size: 2rem;
+}
+
+.mensaje h2 {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.mensaje h3 {
+    color: #555;
+    font-size: 1.2rem;
+}
+
+.mensaje ul {
+/*    list-style-type: none;*/
+/*    padding: 0;*/
+}
+
+.mensaje ul li {
+    margin-bottom: 10px;
+    color: #555;
+}

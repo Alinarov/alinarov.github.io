@@ -1,0 +1,65 @@
+table {
+	border-radius: 5px;
+	text-align: center;
+	border-collapse: collapse;
+
+}
+
+thead {
+
+	border-radius: 5px;
+	background-color: #1d2021;
+	color: white;
+
+}
+
+thead th {
+	margin: 10px;
+	padding: 10px;
+}
+
+td a {
+	color: #1d2021;
+	margin: 4px;
+	text-decoration: none; /* Elimina el subrayado predeterminado */
+	padding: 4px 15px; /* Espaciado dentro del botón */
+	border-radius: 5px; /* Bordes redondeados */
+	display: inline-block; /* Para que los enlaces se comporten como botones */
+	font-weight: bold; /* Resalta el texto */
+	text-align: center; /* Centra el texto */
+	transition: all 0.3s ease; /* Transiciones suaves para los efectos */
+}
+
+/* Estilo para el botón "Editar" */
+.button-editar {
+	background-color: #8ec07c; /* Color de fondo verde */
+	color: white; /* Color del texto */
+	border: 1px solid #4CAF50; /* Borde del mismo color que el fondo */
+}
+
+.button-editar:hover {
+	background-color: #45a049; /* Fondo más oscuro cuando pasa el mouse */
+	border-color: #45a049; /* Borde del mismo color */
+}
+
+/* Estilo para el botón "Eliminar" */
+.button-eliminar {
+	background-color: #fb4934; /* Color de fondo rojo */
+	color: white; /* Color del texto */
+	border: 1px solid #f44336; /* Borde del mismo color que el fondo */
+}
+
+.button-eliminar:hover {
+	background-color: #d32f2f; /* Fondo más oscuro cuando pasa el mouse */
+	border-color: #d32f2f; /* Borde del mismo color */
+}
+
+.button-descargar {
+		background-color: #dd565b;
+	color: #f9f5d7; /* Color del texto */
+	border: 1px solid #f44336; /* Borde del mismo color que el fondo */	
+}
+
+tr td{
+	background-color: white;
+}

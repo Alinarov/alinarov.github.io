@@ -1,0 +1,7 @@
+body {
+	display: flex;
+}
+
+* {
+    font-family: "Kanit", sans-serif;
+}

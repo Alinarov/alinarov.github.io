@@ -1,0 +1,108 @@
+.wrapper {
+    width: 85%;
+
+    margin: auto;
+}
+.header-menu {
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("imagenes/animacion.gif");
+    height: 90vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.nav-area {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li {
+    display: inline-block;
+}
+.nav-area li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Kanit", sans-serif;
+    font-size: 200%;
+    text-transform: uppercase;
+}
+.nav-area li a:hover {
+    /*background: #fff;*/
+    /*color: #333;*/
+}
+
+.welcome-text {
+    position: absolute;
+    width: 70%;
+/*    height: 300px;*/
+    margin: 20% 15%;
+    text-align: center;
+}
+.welcome-text h1 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.welcome-text a {
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+}
+.welcome-text a:hover {
+    background: #fff;
+    color: #333;
+}
+.boton-verde:hover {
+    background-color: #34a753;
+    color: #fff;
+}
+.boton-azul:hover {
+    background-color: #395995;
+    color: #fff;
+}
+.boton-amarillo:hover {
+    background-color: #f8bb04;
+    color: #333;
+}
+.boton-rojo:hover {
+    background-color: #dd565b;
+    color: #fff;
+}
+.boton-blanco:hover {
+    background-color: #fff;
+    color: #333;
+}
+@media (max-width:600px) {
+    .wrapper {
+        width: 100%;
+    }
+    img {
+        width: ;
+    }
+    .nav-area {
+        float: none;
+        margin-top: 0;
+    }
+    .nav-area li a {
+        padding: 5px;
+        font-size: 11px;
+    }
+    .nav-area {
+        text-align: center;
+    }
+    .welcome-text {
+        width: 100%;
+        height: auto;
+        margin: 30% 0;
+    }
+    .welcome-text h1 {
+        font-size: 30px;
+    }
+}
