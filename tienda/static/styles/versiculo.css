@@ -1,0 +1,66 @@
+
+/* Estilo para el contenedor con el fondo */
+.versiculo-container {
+    font-family: 'Kanit', sans-serif; /* Mejor tipografía */
+    position: relative;
+    width: 100%;
+    height: auto
+    overflow: hidden;
+}
+
+/* Imagen de fondo con efecto blur */
+.versiculo-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://wallpapers.com/downloads/high/pixel-game-t1wbphoik25fw7eo.webp'); /* Aquí puedes poner la URL de tu imagen */
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* Estilo del div que contiene el versículo */
+.Versiculo {
+    position: relative;
+    padding: 30px;
+    color: #f9f9f9;
+    font-size: 1.25em;
+    line-height: 1.8em;
+    text-align: justify;
+    z-index: 1; /* Asegura que el texto esté encima del fondo */
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro semitransparente para legibilidad */
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Sombra sutil para el contenedor */
+
+}
+
+/* Estilo para el texto destacado */
+.Versiculo strong {
+    font-size: 1.6em;
+    color: #FFF4B7; /* Color dorado para el versículo */
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* Efectos adicionales para las frases */
+.Versiculo p {
+    font-size: 1.5em;
+    margin: 10px 0;
+    text-align: left;
+    letter-spacing: 0.5px;
+    color: #FCFAEE;
+}
+
+.Versiculo span {
+    font-weight: bold;
+    color: #C96868; /* Color azul claro para énfasis */
+    font-size: 1.3em;
+}
+
+/* Efectos en la interacción */
+.Versiculo:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+}
