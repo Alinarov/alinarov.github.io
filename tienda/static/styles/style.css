@@ -1,36 +1,69 @@
 * {
     margin: 0;
     padding: 0;
-
-
 }
-body {
 
+body {
     background-color: #303841;
     overflow-y: hidden; /* Activa el scrollbar vertical solo si es necesario */
 }
 
 main {
-	display: flex;
+    display: flex;
     font-family: 'Lato', sans-serif;
 }
 
 .panel_control {
-	width: 100%;
+    width: calc(100% - 15%); /* Ajusta el ancho para considerar la barra lateral reducida */
     height: 100vh;
-
-    overflow-y: scroll ; /* Activa el scrollbar vertical solo si es necesario */
+    overflow-y: scroll; /* Activa el scrollbar vertical solo si es necesario */
     padding: 1%;
     background-color: #1d2021;
+    position: relative; /* Asegura que se posicione correctamente */
+    margin-left: 15%; /* Desplaza el contenido hacia la derecha para no estar detrás de la barra lateral */
+    transition: margin-left 0.3s ease-in-out, width 0.3s ease-in-out;
 }
 
 .panel_lateral {
-    max-width: 17%;
+    width: 15%; /* Reduce el ancho de la barra lateral */
+    position: fixed; /* Mantiene la barra lateral fija mientras se hace scroll */
+    height: 100vh;
+    z-index: 2; /* Asegura que esté por encima del panel de control */
+    background-color: #1d2021;
+    overflow-y: auto; /* Permite hacer scroll en la barra lateral si es necesario */
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%); /* Oculta la barra lateral por defecto */
 }
-.nav-bar {
-    width: 100%;    
-    height: 1hv;
 
+.panel_lateral.active {
+    transform: translateX(0); /* Muestra la barra lateral cuando está activa */
+}
+
+.hamburger-menu {
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    position: absolute; /* Para que se coloque en la parte superior izquierda */
+    top: 10px;
+    left: 10px;
+}
+
+@media (max-width: 480px) {
+    .panel_control {
+        width: 100%; /* Ajusta el ancho del panel de control en pantallas pequeñas */
+        margin-left: 0;
+    }
+    .panel_lateral {
+        width: 70%; /* Ancho ajustado de la barra lateral en dispositivos móviles */
+        position: relative; /* Cambia la posición a relativa en pantallas pequeñas */
+        height: auto; /* Ajusta la altura automáticamente */
+        z-index: 1;
+        transform: translateX(0); /* Asegura que se muestre correctamente en móviles */
+    }
+    .panel_lateral.active {
+        display: none; /* Oculta la barra lateral cuando no está activa en móviles */
+    }
 }
 
 /* Estilo para los encabezados (h1, h2, h3) */
@@ -64,7 +97,6 @@ h2 {
     color: #1d2227;
     text-align: left;
     margin-bottom: 12px;
-    
     transition: all 0.3s ease;
 }
 
@@ -80,7 +112,6 @@ h3 {
     color: #555;
     text-align: left;
     margin-bottom: 8px;
-    /* text-transform: capitalize; Capitaliza la primera letra de cada palabra */
     transition: all 0.3s ease;
 }
 
@@ -107,15 +138,4 @@ h1, h2, h3 {
 
 .header-grid {
     grid-template-columns: 1fr; /* Cambia a una sola columna en pantallas pequeñas */
-}
-
-@media (max-width: 480px) {
-.nav-area a {
-    font-size: 14px;
-    padding: 6px 10px;
-}
-
-.logo img {
-    max-width: 120px;
-}
 }
